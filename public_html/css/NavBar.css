@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 May 2021, 10:50:37 AM
+    Author     : 20120702
+*/
+ul{
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: black;
+}
+
+li {
+float: left;
+}
+
+li a{
+dislay: block;
+color:white;
+padding: 14px 16px;
+text-decoration:none;
+}
+
+li a :hover:not(.active){
+ background-color:blue; 
+}
+
+.active{
+ background-color:#111;   
+}
